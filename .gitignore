@@ -8,5 +8,6 @@ test/web-ext-profile
 artifacts
 .DS_Store
 desktop.ini
+.idea
 
 LocalOverrides.xcconfig

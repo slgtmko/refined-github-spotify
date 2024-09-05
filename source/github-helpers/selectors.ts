@@ -156,6 +156,7 @@ export const commitTitleInLists_ = [
 ];
 
 const botNames = [
+	'fleetshift-bot',
 	'actions-user',
 	'bors',
 	'ImgBotApp',

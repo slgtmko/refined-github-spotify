@@ -7,7 +7,21 @@
 .rgh-dim-bots:not(.rgh-tagged, :hover) > *,
 /* PR row, dim */
 .rgh-dim-bots:not(.rgh-tagged, :hover) .Box-row--drag-hide {
-	opacity: 50%; /* Match `mark-merge-commits-in-list` */
+	opacity: 20%; /* Match `mark-merge-commits-in-list` */
+	max-height: 32px !important;
+}
+
+.rgh-dim-bots:not(.rgh-tagged) .Box-row--drag-hide {
+	max-height: 32px !important;
+}
+
+.rgh-dim-bots:not(.rgh-tagged) .h4 {
+	font-size: 0.7rem !important;
+	margin-bottom: 0 !important;
+}
+
+.rgh-dim-bots:not(.rgh-tagged) div.flex-shrink-0.col-4.col-md-3.pt-2.text-right.pr-3.no-wrap.d-flex.hide-sm {
+	display: none !important;
 }
 
 /* Reset commit title spacing */
