@@ -20,7 +20,8 @@
 	margin-bottom: 0 !important;
 }
 
-.rgh-dim-bots:not(.rgh-tagged) div.flex-shrink-0.col-4.col-md-3.pt-2.text-right.pr-3.no-wrap.d-flex.hide-sm {
+.rgh-dim-bots:not(.rgh-tagged)
+	div.flex-shrink-0.col-4.col-md-3.pt-2.text-right.pr-3.no-wrap.d-flex.hide-sm {
 	display: none !important;
 }
 
